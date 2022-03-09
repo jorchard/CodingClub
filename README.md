@@ -1,1 +1,1 @@
-# LearnPython
+# Coding Club
