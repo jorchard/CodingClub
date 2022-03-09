@@ -1,3 +1,15 @@
+## Let's Learn Python... right NOW!
+
+```python
+# Print "Hello world!"
+print('Hello world.')
+
+# Set the variable name to your name.
+name = 'Jeff'
+print(f'Hello {name}')
+```
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/jorchard/LearnPython/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
