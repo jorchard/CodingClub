@@ -1,5 +1,6 @@
 ## Let's Learn Python... right NOW!
 
+Copy and paste this code into `main.py` in (replit.com)[http://replit.com]{:target="_blank"}.
 ```python
 # Print "Hello world!"
 print('Hello world.')
