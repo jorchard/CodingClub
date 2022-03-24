@@ -8,7 +8,7 @@ wait for the user to type something in and hit `Enter`. For example, this line o
 ```python
 name = input('What is your name? ')
 ```
-will assign to the variable `name` whatever the user typed. Try it. Then follow it with a print
+will take whatever the user typed, and assign it to the variable `name`. Try it. Then follow it with a print
 command. Something like...
 ```python
 print(f'{name} is a future coder.')
