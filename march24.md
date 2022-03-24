@@ -25,6 +25,7 @@ age = int(age_str)
   <summary>Solution</summary>
   <code>
   age = int(age_string)
+    
   print(f'Ten  years from now, you will be {age-10} years old.')
   </code>
   </details>
