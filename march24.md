@@ -75,7 +75,7 @@ print(f'YOU GOT IT! The number was {secret_number}')
 ```
 
 Wouldn't it be easier if the program told you if the secret number is higher or lower after each guess?
-**Add some code where the `#=====` is** that tells the user if the secret number is higher or lower than their guess.
+**Add a few lines of code to replace the `#=====` line** telling the user if their guess was higher or lower than the secret number.
 
 <details>
 <summary>
@@ -86,7 +86,7 @@ Solution
   elif guess &gt secret_number:
       print('Your guess is too high.')
 </code></pre>
-    Make sure you indent this code to align with the <code>guess = ...</code> line.
+    Make sure you indent this code to align with the other lines in the <code>while</code> loop, like the <code>guess = ...</code> line.
 </details>
 
 As an additional challenge, you can help the user by keeping track of the lowest and highest guesses and printing them before each guess.
