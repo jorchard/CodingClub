@@ -11,7 +11,7 @@ name = input('What is your name? ')
 will take whatever the user typed, and assign it to the variable `name`. Try it. Then follow it with a print
 command. Something like...
 ```python
-print(f'{name} is a future coder.')
+print(f'{name} is writing code.')
 ```
 
 ---
