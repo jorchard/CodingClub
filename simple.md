@@ -1,4 +1,6 @@
-## Let's Learn Python... right NOW!
+# Getting Started
+
+## Start with some simple Python commands.
 
 Copy and paste this code into `main.py` in [replit.com](http://replit.com){:target="_blank"}.
 ```python
