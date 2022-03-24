@@ -81,10 +81,9 @@ Wouldn't it be easier if the program told you if the secret number is higher or 
 <summary>
 Solution
 </summary>
-<pre><code>
-  if guess<secret_number:
+<pre><code>  if guess &lt secret_number:
       print('The secret number is higher')
-  elif guess>secret_number:
+  elif guess &gt secret_number:
       print('The secret number is lower')
 </code></pre>
 Make sure you indent this code to align with the `guess = ...` line.
