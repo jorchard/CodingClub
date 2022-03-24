@@ -66,7 +66,7 @@ guess = int(guess_str)
 
 while guess!=secret_number:
 
-    # =====
+    #=====
     
     guess_str = input(f'Guess a number: ')
     guess = int(guess_str)
@@ -88,3 +88,5 @@ Solution
 </code></pre>
     Make sure you indent this code to align with the <code>guess = ...</code> line.
 </details>
+
+As an additional challenge, you can help the user by keeping track of the lowest and highest guesses and printing them before each guess.
