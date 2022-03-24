@@ -94,5 +94,5 @@ Solution
 - You can help the user by keeping track of the lowest and highest guesses and printing them before each guess.
 - Try changing the game so that it randomly chooses a number between 1 and 128?
 - What is the best strategy to play this game?
-- Can you guarantee that you will guess the secret number in 8 guess or less?
+- Can you guarantee that you will guess the secret number in 8 guesses or less?
 - How many more guesses would it take if the secret number was between 1 and 256?
