@@ -13,9 +13,11 @@ command. Something like...
 print(f'{name} is a future coder.')
 ```
 
+The output looks like this:
 <samp>
 Jeff is a future coder.
 </samp>
+
 
 Have the user enter their age.
 ```python
