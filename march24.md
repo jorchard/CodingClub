@@ -87,7 +87,7 @@ Solution
   elif guess &gt secret_number:
       print('Your guess is too high.')
 </code></pre>
-    Make sure you indent this code to align with the other lines in the <code>while</code> loop, like the <code>guess = ...</code> line.
+    Make sure you indent this code to align with the other lines in the <code>while</code> loop, like the <code>guess_str = ...</code> line.
 </details>
 
-As an additional challenge, you can help the user by keeping track of the lowest and highest guesses and printing them before each guess.
+**Challenge:** As an additional challenge, you can help the user by keeping track of the lowest and highest guesses and printing them before each guess.
