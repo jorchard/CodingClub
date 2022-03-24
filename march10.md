@@ -1,4 +1,5 @@
 # Getting Started
+[Home](index.md)
 
 ## Start with some simple Python commands.
 
