@@ -82,9 +82,9 @@ Wouldn't it be easier if the program told you if the secret number is higher or 
 Solution
 </summary>
 <pre><code>  if guess &lt secret_number:
-      print('The secret number is higher')
+      print('Your guess is too low.')
   elif guess &gt secret_number:
-      print('The secret number is lower')
+      print('Your guess is too high.')
 </code></pre>
-Make sure you indent this code to align with the `guess = ...` line.
+    Make sure you indent this code to align with the <code>guess = ...</code> line.
 </details>
