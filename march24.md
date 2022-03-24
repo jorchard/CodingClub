@@ -14,6 +14,7 @@ print(f'{name} is a future coder.')
 ```
 
 The output looks like this:
+
 <samp>
 Jeff is a future coder.
 </samp>
