@@ -26,4 +26,4 @@ age = int(age_str)
   ```python
   print
   ```
-  </details
+  </details>
