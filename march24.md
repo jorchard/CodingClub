@@ -12,6 +12,7 @@ command. Something like...
 ```python
 print(f'{name} is a future coder.')
 ```
+
 <samp>
 Jeff is a future coder.
 </samp>
