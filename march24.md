@@ -32,7 +32,7 @@ Ten years from now, you will be __ years old.
 <details>
 <summary>Solution</summary>
 <pre><code>age = int(age_string)
-print(f'Ten  years from now, you will be {age-10} years old.')
+print(f'Ten  years from now, you will be {age+10} years old.')
 </code></pre>
 </details>
 
