@@ -1,5 +1,8 @@
 ## Let's Learn Python... right NOW!
 
+Useful links:
+- [replit](http://replit.com)
+
 - [March 10](./march10.md)
     - simple commands
     - lists
