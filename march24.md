@@ -75,7 +75,7 @@ while guess!=secret_number:
 print(f'YOU GOT IT! The number was {secret_number}')
 ```
 
-Wouldn't it be easier if the program told you if the secret number is higher or lower after each guess?
+Wouldn't it be easier if the program told you whether your guess was too high or too low?
 **Add a few lines of code to replace the `#=====` line** telling the user if their guess was higher or lower than the secret number.
 
 <details>
@@ -90,4 +90,4 @@ Solution
     Make sure you indent this code to align with the other lines in the <code>while</code> loop, like the <code>guess_str = ...</code> line.
 </details>
 
-**Challenge:** As an additional challenge, you can help the user by keeping track of the lowest and highest guesses and printing them before each guess.
+**Challenge:** As an additional challenge, you can help the user by keeping track of the lowest and highest guesses and printing them before each guess. Try changing the game so that it randomly chooses a number between 1 and 128? What is the best strategy to play this game? Can you guarantee that you will guess the secret number in 7 guess or less?
