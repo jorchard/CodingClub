@@ -18,15 +18,16 @@ The output looks like this:
 Jeff is a future coder.
 ```
 
----
+--
 Have the user enter their age.
 ```python
 age_str = input('How old are you? ')
 ```
-Then print how old they will be in 10 years. But notice that `age_str` is a string, not a number (we added `_str` to the name to remind us). You can't do math with a string. Instead, you can convert the string to a number using
+Then print how old they will be in 10 years. But notice that `age_str` is a **string**, not a number (we added `_str` to the name to remind us). You can't do math with a string. Instead, you can convert the string to a number using
 ```python
 age = int(age_str)
 ```
+
 <details>
 <summary>Solution</summary>
 <pre><code>age = int(age_string)
