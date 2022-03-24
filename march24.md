@@ -22,11 +22,9 @@ Then print how old they will be in 10 years. But notice that `age_str` is a stri
 age = int(age_str)
 ```
 <details>
-  <summary>Solution</summary>
-  <pre>
-  <code>
-  age = int(age_string)
-  print(f'Ten  years from now, you will be {age-10} years old.')
-  </code>
-  </pre>
-  </details>
+<summary>Solution</summary>
+<pre><code>
+age = int(age_string)
+print(f'Ten  years from now, you will be {age-10} years old.')
+</code></pre>
+</details>
