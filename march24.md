@@ -7,15 +7,10 @@ wait for the user to type something in and hit `Enter`. For example, this line o
 ```python
 name = input('What is your name? ')
 ```
-will assign whatever the user typed to the variable `name`. Try it. Then follow it with a print
+will assign to the variable `name` whatever the user typed. Try it. Then follow it with a print
 command. Something like...
 ```python
 print(f'{name} is a future coder.')
-```
-
-The output looks like this:
-```
-Jeff is a future coder.
 ```
 
 ---
@@ -27,10 +22,70 @@ Then print how old they will be in 10 years. But notice that `age_str` is a **st
 ```python
 age = int(age_str)
 ```
+Make the output look something like this:
+```
+Ten years from now, you will be __ years old.
+```
+(except it should give a number).
 
 <details>
 <summary>Solution</summary>
 <pre><code>age = int(age_string)
 print(f'Ten  years from now, you will be {age-10} years old.')
 </code></pre>
+</details>
+
+---
+
+## if statements
+
+This is one of the most powerful programming methods. Cut-and-paste this code to the bottom of your program.
+```python
+if age<4:
+    print('You are too young to be in school')
+else:
+    print('You are old enough to be in school.')
+```
+Which print command it runs depends on the value of `age`.
+
+---
+
+## Number Guessing Game
+
+The computer will choose a number from 1 to 20, and your job is to guess it.
+
+Cut-and-paste this code to get you started.
+```python
+import numpy as np  # loads some useful math stuff
+
+# It chooses a random secret number
+secret_number = np.random.randint(1, 21)
+
+guess_str = input('Guess a number from 1 to 20. ')
+guess = int(guess_str)
+
+while guess!=secret_number:
+
+    # =====
+    
+    guess_str = input(f'Guess a number: ')
+    guess = int(guess_str)
+
+print(f'YOU GOT IT! The number was {secret_number}')
+```
+
+Wouldn't it be easier if the program told you if the secret number is higher or lower after each guess?
+**Add some code where the `#=====` is** that tells the user if the secret number is higher or lower than their guess.
+
+<details>
+<summary>
+Solution
+</summary>
+<pre><code>
+  if guess<secret_number:
+      print('The secret number is higher')
+  elif guess>secret_number:
+      print('The secret number is lower')
+</code></pre>
+Make sure you indent this code to align with the `guess = ...` line.
 </details>
