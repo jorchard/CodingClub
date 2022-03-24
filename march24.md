@@ -90,4 +90,4 @@ Solution
     Make sure you indent this code to align with the other lines in the <code>while</code> loop, like the <code>guess_str = ...</code> line.
 </details>
 
-**Challenge:** As an additional challenge, you can help the user by keeping track of the lowest and highest guesses and printing them before each guess. Try changing the game so that it randomly chooses a number between 1 and 128? What is the best strategy to play this game? Can you guarantee that you will guess the secret number in 7 guess or less?
+**Challenge:** As an additional challenge, you can help the user by keeping track of the lowest and highest guesses and printing them before each guess. Try changing the game so that it randomly chooses a number between 1 and 128? What is the best strategy to play this game? Can you guarantee that you will guess the secret number in 8 guess or less?
