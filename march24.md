@@ -18,7 +18,7 @@ The output looks like this:
 Jeff is a future coder.
 ```
 
-
+---
 Have the user enter their age.
 ```python
 age_str = input('How old are you? ')
