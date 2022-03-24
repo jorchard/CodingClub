@@ -23,7 +23,8 @@ age = int(age_str)
 ```
 <details>
   <summary>Solution</summary>
-  ```python
-  print
-  ```
+  <code>
+  age = int(age_string)
+  print(f'Ten  years from now, you will be {age-10} years old.')
+  </code>
   </details>
