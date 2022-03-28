@@ -20,9 +20,10 @@ pygame.init()   # start pygame
 # (width, height) of our graphics window
 size = (400, 300)
 
-# Create the graphics window
+# The next line creates the graphics window
 screen = pygame.display.set_mode(size)
 ```
+
 
 <details>
 <summary>Solution</summary>
