@@ -1,7 +1,7 @@
 ## Let's Learn Python... right NOW!
 
 Useful links:
-- [replit](http://replit.com)
+[replit](http://replit.com), [CS Circles](https://cscircles.cemc.uwaterloo.ca/){:target="_blank"}
 
 - [March 31](./march31.md)
     - graphics with PyGame
