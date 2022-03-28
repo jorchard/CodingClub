@@ -6,11 +6,12 @@
 We will use a module called [PyGame](https://www.pygame.org/docs/){:target="_blank"}.
 
 Start by creating a replit using the Pygame template.
+
 <img width="295" alt="image" src="https://user-images.githubusercontent.com/2715243/160309671-cb057796-3559-47ab-9004-524b1f29b69e.png">
 
+Search for the "pygame" template. It might give you 2 choices. You can choose either one.
 
-
-Start a new Python program, and past the following lines:
+Paste the following lines:
 ```python
 import pygame
 
