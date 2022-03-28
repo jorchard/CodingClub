@@ -24,6 +24,15 @@ size = (400, 300)
 screen = pygame.display.set_mode(size)
 ```
 
+Now let's draw a circle on the screen.
+```python
+# Draw a circle
+pygame.draw.circle(screen, (255,100,100), (50, 50), 20)
+
+# We have to ask pygame to display our drawings
+pygame.display.update()
+```
+For speed reasons, PyGame doesn't actually *show* what you drew until you ask it to update the display.
 
 <details>
 <summary>Solution</summary>
