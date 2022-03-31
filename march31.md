@@ -25,6 +25,13 @@ height = 300
 screen = pygame.display.set_mode((width, height))
 ```
 
+We are going to draw a circle. The circle's position will be stored in `x` and `y`.
+```python
+# Position of circle
+x = 50  # x coordinate
+y = 50  # y coordinate
+```
+
 Now let's draw on the screen.
 ```python
 #-----Paint the screen-----
@@ -32,8 +39,8 @@ Now let's draw on the screen.
 # Background
 screen.fill((0,0,0))
 
-# Draw a circle
-pygame.draw.circle(screen, (255,100,100), (50,50), 20)
+# Draw a circle at position (x, y)
+pygame.draw.circle(screen, (255,100,100), (x, y), 20)
 
 # We have to ask pygame to display our drawings
 pygame.display.flip()
