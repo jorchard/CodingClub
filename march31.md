@@ -85,10 +85,11 @@ for k in range(100):
     # Ask pygame to slow down so we can see movement
     pygame.time.Clock().tick(60)
 ```
+That last line (with `tick`) stops the computer from running too fast. Instead, it tells it to draw frames at a certain rate (60 frames per second, in this case).
 <details><summary>Solution</summary>
 <pre><code>    # Update the location BELOW
     x = x + 1
-    y = y + 1</code> Hi </pre>
+    y = y + 1</code></pre>
 </details>
 
 ---
