@@ -27,10 +27,10 @@ screen = pygame.display.set_mode((width, height))
 
 Now let's draw a circle on the screen.
 ```python
-# Draw a circle
+\# Draw a circle
 pygame.draw.circle(screen, (255,100,100), (50, 50), 20)
 
-# We have to ask pygame to display our drawings
+\# We have to ask pygame to display our drawings
 pygame.display.update()
 ```
 PyGame doesn't actually *show* what you drew until you ask it to update the display.
