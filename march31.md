@@ -61,14 +61,14 @@ import sys, pygame
 
 pygame.init()  # start pygame
 
-\# (width, height) of our graphics window
+# (width, height) of our graphics window
 width = 400
 height = 300
 
-\# Create the graphics window
+# Create the graphics window
 screen = pygame.display.set_mode((width, height))
 
-\# Position of circle
+# Position of circle
 x = 50  # x coordinate
 y = 50  # y coordinate
 
@@ -94,6 +94,20 @@ for k in range(100):
 ---
 
 ## Bouncing
+
+Change the line
+```python
+for k in range(100):
+```
+to
+```python
+while True:
+```
+This will keep the ball moving forever (or until you hit "Stop"). Unfortunately, the ball moved off the screen. Let's fix that.
+
+**Challenge**
+
+Add if-statements inside the loop that reverses the direction of motion when the ball hits the edges of the screen. Remember that the screen is `x=0` on the left, `x=width` on the right, `y=0` at the top, and `y=height` at the bottom.
 
 <details>
 <summary>Solution</summary>
