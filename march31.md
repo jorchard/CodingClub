@@ -112,6 +112,7 @@ Add if-statements inside the loop that reverses the direction of motion when the
 
 <details>
 <summary>Solution</summary>
+    <div>
 <code><pre>import sys, pygame
 
 pygame.init()  # start pygame
@@ -150,4 +151,4 @@ while True:
     pygame.display.flip()
     # Ask pygame to slow down so we can see movement
     pygame.time.Clock().tick(60)</code></pre>
-</details>
+</div></details>
