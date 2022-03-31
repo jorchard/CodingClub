@@ -47,6 +47,89 @@ pygame.display.flip()
 ```
 It's like you draw on the back of a piece of paper, and then **flip** it over once you're done drawing. Then you draw on the back again.
 
+---
+
+## Animation
+We do animation by drawing frames very quickly.
+
+**Challenge**
+Here is a loop that draws the circle at position `(x, y)`. Add 1 to each of `x` and `y` inside the loop, so that the circle shifts every time you draw it.
+
+```python
+import sys, pygame
+
+pygame.init()  # start pygame
+
+# (width, height) of our graphics window
+width = 400
+height = 300
+
+# Create the graphics window
+screen = pygame.display.set_mode((width, height))
+
+# Position of circle
+x = 50  # x coordinate
+y = 50  # y coordinate
+
+for k in range(100):
+    # Update the location BELOW
+
+    #-----Paint the screen-----
+    # Background
+    screen.fill((0, 0, 0))
+    # Draw a circle at position (x, y)
+    pygame.draw.circle(screen, (255, 100, 100), (x, y), 20)
+    # We have to ask pygame to display our drawings
+    pygame.display.flip()
+    # Ask pygame to slow down so we can see movement
+    pygame.time.Clock().tick(60)
+```
+<details><summary>Solution</summary>
+<pre><code>    # Update the location BELOW
+    x = x + 1
+    y = y + 1</code></pre>
+</details>
+
+---
+
+## Bouncing
+
+<details>
+<summary>Solution</summary>
+<pre><code>import sys, pygame
+
+pygame.init()  # start pygame
+
+# (width, height) of our graphics window
+width = 400
+height = 300
+
+# Create the graphics window
+screen = pygame.display.set_mode((width, height))
+
+# Position of circle
+x = 50  # x coordinate
+y = 50  # y coordinate
+
+for k in range(100):
+    # Update the location
+    x = x + 1
+    y = y + 1
+
+    #-----Paint the screen-----
+    # Background
+    screen.fill((0, 0, 0))
+    # Draw a circle at position (x, y)
+    pygame.draw.circle(screen, (255, 100, 100), (x, y), 20)
+    # We have to ask pygame to display our drawings
+    pygame.display.flip()
+    # Ask pygame to slow down so we can see movement
+    pygame.time.Clock().tick(60)</code></pre>
+</details>
+
+---
+
+
 <details>
 <summary>Solution</summary>
 <pre><code>age = int(age_string)
