@@ -25,15 +25,20 @@ height = 300
 screen = pygame.display.set_mode((width, height))
 ```
 
-Now let's draw a circle on the screen.
+Now let's draw on the screen.
 ```python
+#-----Paint the screen-----
+
+# Background
+screen.fill((0,0,0))
+
 # Draw a circle
-pygame.draw.circle(screen, (255,100,100), (50, 50), 20)
+pygame.draw.circle(screen, (255,100,100), (50,50), 20)
 
 # We have to ask pygame to display our drawings
-pygame.display.update()
+pygame.display.flip()
 ```
-PyGame doesn't actually *show* what you drew until you ask it to update the display.
+It's like you draw on the back of a piece of paper, and then **flip** it over once you're done drawing. Then you draw on the back again.
 
 <details>
 <summary>Solution</summary>
