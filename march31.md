@@ -140,8 +140,8 @@ while True:
     if y<0 or y>height:
         vy = -vy
 
-    #-----Paint the screen-----
-    # Background
+    \#-----Paint the screen-----
+    \# Background
     screen.fill((0, 0, 0))
     # Draw a circle at position (x, y)
     pygame.draw.circle(screen, (255, 100, 100), (x, y), 20)
