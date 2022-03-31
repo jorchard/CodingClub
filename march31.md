@@ -131,6 +131,7 @@ vx = 1  # x velocity
 vy = 1  # y velocity
 
 while True:
+
     # Update the location BELOW
     x = x + vx
     y = y + vy
