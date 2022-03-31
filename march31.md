@@ -53,6 +53,7 @@ It's like you draw on the back of a piece of paper, and then **flip** it over on
 We do animation by drawing frames very quickly.
 
 **Challenge**
+
 Here is a loop that draws the circle at position `(x, y)`. Add 1 to each of `x` and `y` inside the loop, so that the circle shifts every time you draw it.
 
 ```python
@@ -60,14 +61,14 @@ import sys, pygame
 
 pygame.init()  # start pygame
 
-# (width, height) of our graphics window
+\# (width, height) of our graphics window
 width = 400
 height = 300
 
-# Create the graphics window
+\# Create the graphics window
 screen = pygame.display.set_mode((width, height))
 
-# Position of circle
+\# Position of circle
 x = 50  # x coordinate
 y = 50  # y coordinate
 
