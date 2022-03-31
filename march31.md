@@ -127,8 +127,8 @@ screen = pygame.display.set_mode((width, height))
 x = 50  # x coordinate
 y = 50  # y coordinate
 
-vx = 1 # x velocity
-vy = 1 # y velocity
+vx = 1  # x velocity
+vy = 1  # y velocity
 
 while True:
     # Update the location BELOW
@@ -140,8 +140,8 @@ while True:
     if y<0 or y>height:
         vy = -vy
 
-    \#-----Paint the screen-----
-    \# Background
+    #-----Paint the screen-----
+    # Background
     screen.fill((0, 0, 0))
     # Draw a circle at position (x, y)
     pygame.draw.circle(screen, (255, 100, 100), (x, y), 20)
@@ -150,4 +150,3 @@ while True:
     # Ask pygame to slow down so we can see movement
     pygame.time.Clock().tick(60)</code></pre>
 </details>
-
