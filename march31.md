@@ -46,11 +46,13 @@ pygame.init()   # start pygame
 width = 400
 height = 300
 
-# Create the graphics window
+\# Create the graphics window
 screen = pygame.display.set_mode((width, height))
 
+\# Initial position
 x = 50
 y = 50
+\# Velocity
 vx = 2
 vy = 3
 
