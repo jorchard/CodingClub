@@ -117,8 +117,7 @@ Add if-statements inside the loop that reverses the direction of motion when the
 vy = 1  # y velocity</pre>
     
 Then add these lines inside the loop.
-    
-</pre>    if x<0 or x>width:
+<pre>    if x<0 or x>width:
         vx = -vx
     if y<0 or y>height:
         vy = -vy</pre>
