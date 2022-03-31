@@ -88,7 +88,7 @@ for k in range(100):
 <details><summary>Solution</summary>
 <pre><code>    # Update the location BELOW
     x = x + 1
-    y = y + 1</code></pre>
+    y = y + 1</code> Hi </pre>
 </details>
 
 ---
@@ -115,21 +115,29 @@ Add if-statements inside the loop that reverses the direction of motion when the
 
 pygame.init()  # start pygame
 
-# (width, height) of our graphics window
+\# (width, height) of our graphics window
 width = 400
 height = 300
 
-# Create the graphics window
+\# Create the graphics window
 screen = pygame.display.set_mode((width, height))
 
-# Position of circle
+\# Position of circle
 x = 50  # x coordinate
 y = 50  # y coordinate
 
-for k in range(100):
-    # Update the location
-    x = x + 1
-    y = y + 1
+vx = 1 # x velocity
+vy = 1 # y velocity
+
+while True:
+    # Update the location BELOW
+    x = x + vx
+    y = y + vy
+
+    if x<0 or x>width:
+        vx = -vx
+    if y<0 or y>height:
+        vy = -vy
 
     #-----Paint the screen-----
     # Background
@@ -139,54 +147,7 @@ for k in range(100):
     # We have to ask pygame to display our drawings
     pygame.display.flip()
     # Ask pygame to slow down so we can see movement
-    pygame.time.Clock().tick(60)</code></pre>
+    pygame.time.Clock().tick(60)
+</code></pre>
 </details>
-
----
-
-
-<details>
-<summary>Solution</summary>
-<pre><code>age = int(age_string)
-import sys, pygame
-
-pygame.init()   # start pygame
-
-\# (width, height) of our graphics window
-width = 400
-height = 300
-
-\# Create the graphics window
-screen = pygame.display.set_mode((width, height))
-
-\# Initial position
-x = 50
-y = 50
-\# Velocity
-vx = 2
-vy = 3
-
-while True:
-
-    # Update location
-    x += vx
-    y += vy
-
-    # Bounce of sides
-    if x<0 or x>width:
-        vx = -vx
-    if y<0 or y>height:
-        vy = -vy
-
-    # Paint the screen
-    screen.fill((0,0,0))   # Background
-    # Draw a circle
-    pygame.draw.circle(screen, (255,100,100), (x,y), 20)
-
-    # We have to ask pygame to display our drawings
-    pygame.display.flip()
-    pygame.time.Clock().tick(60)</code></pre>
-</details>
-
----
 
