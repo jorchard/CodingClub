@@ -91,7 +91,7 @@ r2 = 12  # radius of circle 2</pre>
 
 Add code inside the loop that calculates the distance between the positions of the two circles. In Python, you can square a number using the double-asterix. For example, I can square `x` using `x**2`. Also, you can compute a square root of `y` using `np.sqrt(y)`.
 
-Once you've done that, see if you can make the circles bounce when they touch each other.
+Once you've done that, see if you can make circle 2 bounce when circles touch each other.
 
 *Hint: How far apart are the centres of the circles when the circles touch?*
 
