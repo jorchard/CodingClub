@@ -53,7 +53,7 @@ while True:
     pygame.time.Clock().tick(60)
 ```
 
-**Challenge**
+**Challenge 1**
 
 You are going to add code to make a second bouncing circle. Set up variables for its location (call them `a` and `b`), its velocity (call them `va` and `vb`), and its radius (call it `r2`).
 
@@ -86,3 +86,22 @@ r2 = 12  # radius of circle 2</pre>
     with
     <pre>   pygame.draw.circle(screen, (20, 255, 100), (a, b), r2)</pre>
 </details>
+
+## Challenge 2
+
+Add code inside the loop that calculates the distance between the positions of the two circles. In Python, you can square a number using the double-asterix. For example, I can square `x` using `x**2`. Also, you can compute a square root of `y` using `np.sqrt(y)`.
+
+Once you've done that, see if you can make the circles bounce when they touch each other.
+
+*Hint: How far apart are the centres of the circles when the circles touch?*
+
+<details>
+<summary>Solution</summary>
+Compute the distance between the circle centres.
+    <pre>   dist = np.sqrt( (x-a)**2 + (y-b)**2 )</pre>
+Bounce them if they touch.
+    <pre>    if dist<=20+r2:
+        va = -va
+        vb = -vb</pre>
+</details>
+
