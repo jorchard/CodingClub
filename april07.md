@@ -55,7 +55,9 @@ while True:
 
 **Challenge**
 
-You are going to add code to make a second bouncing circle with radius `r2`. Set `r2` to 1Use `a` and `b` to store its position, and `va` and `vb` for its velocity.
+You are going to add code to make a second bouncing circle. Set up variables for its location (call them `a` and `b`), its velocity (call them `va` and `vb`), and its radius (call it `r2`).
+
+Inside the `while` loop, update the position of circle 2, and draw it.
 
 <details>
 <summary>Solution</summary>
@@ -69,7 +71,7 @@ va = 2
 vb = 3
 r2 = 12  # radius of circle 2</pre>
     Replace
-    <pre>#===== MOVE CIRCLE 2 =====</pre>
+    <pre>   #===== MOVE CIRCLE 2 =====</pre>
     with
     <pre>    # Move circle 2
     a += va
@@ -80,7 +82,7 @@ r2 = 12  # radius of circle 2</pre>
     if b<r2 or b>=height - r2:
         vb = -vb</pre>
     Finally, replace
-    <pre>#===== DRAW CIRCLE 2 =====</pre>
+    <pre>   #===== DRAW CIRCLE 2 =====</pre>
     with
-    <pre>pygame.draw.circle(screen, (20, 255, 100), (a, b), r2)</pre>
+    <pre>   pygame.draw.circle(screen, (20, 255, 100), (a, b), r2)</pre>
 </details>
