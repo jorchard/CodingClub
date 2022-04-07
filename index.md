@@ -3,7 +3,7 @@
 Useful links:
 [replit](http://replit.com){:target="_blank"}, [CS Circles](https://cscircles.cemc.uwaterloo.ca/){:target="_blank"}
 
-- [April 7](./April07.md)
+- [April 7](./april07.md)
     - starting to build a game
     - adding more complex behaviours
 
