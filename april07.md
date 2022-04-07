@@ -77,9 +77,9 @@ r2 = 12  # radius of circle 2</pre>
     a += va
     b += vb
     # Bounce circle 2
-    if a&lt;r2 or a&ge;width - r2:
+    if a&lt;r2 or a&gt;=width - r2:
         va = -va
-    if b&lt;r2 or b&ge;height - r2:
+    if b&lt;r2 or b&gt;=height - r2:
         vb = -vb</pre>
     Finally, replace
     <pre>   #===== DRAW CIRCLE 2 =====</pre>
