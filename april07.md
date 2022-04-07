@@ -6,6 +6,7 @@
 Let's start with where we ended last week. Create a PyGame replit and paste the following code.
 ```python
 import pygame
+import numpy as np
 
 pygame.init()  # start pygame
 
@@ -16,29 +17,36 @@ height = 300
 # Create the graphics window
 screen = pygame.display.set_mode((width, height))
 
-# Position of circle
-x = 5  # x coordinate
-y = 5  # y coordinate
+# Position and velocity of circle 1
+x = 50  # x coordinate
+y = 50  # y coordinate
+vx = 2
+vy = 5
 
-vx = 1
-vy = 1
+#===== SET UP CIRCLE 2 =====
 
 while True:
-    # Update the location BELOW
+
+    # Move circle 1
     x = x + vx
     y = y + vy
 
+    # Bounce circle 1
     if x<=0 or x>=width:
-        vx = -vx
-
+        vx = -vx  # reverse x direction
     if y<= 0 or y>=height:
-        vy = -vy
+        vy = -vy  # reverse y direction
 
+    #===== MOVE CIRCLE 2 =====
+    
     #-----Paint the screen-----
     # Background
     screen.fill((0, 0, 0))
     # Draw a circle at position (x, y)
     pygame.draw.circle(screen, (255, 100, 100), (x, y), 20)
+    
+    #===== DRAW CIRCLE 2 =====
+    
     # We have to ask pygame to display our drawings
     pygame.display.flip()
     # Ask pygame to slow down so we can see movement
@@ -47,7 +55,7 @@ while True:
 
 **Challenge**
 
-Add if-statements inside the loop that reverses the direction of motion when the ball hits the edges of the screen. Remember that the screen is `x=0` on the left, `x=width` on the right, `y=0` at the top, and `y=height` at the bottom.
+Add a second bouncing ball with radius `r2`. Set `r2` to Use `a` and `b` to store its position, and `va` and `vb` for its velocity.
 
 <details>
 <summary>Solution</summary>
