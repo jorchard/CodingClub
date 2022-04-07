@@ -34,7 +34,7 @@ while True:
     # Bounce circle 1
     if x<=0 or x>=width:
         vx = -vx  # reverse x direction
-    if y<= 0 or y>=height:
+    if y<=0 or y>=height:
         vy = -vy  # reverse y direction
 
     #===== MOVE CIRCLE 2 =====
