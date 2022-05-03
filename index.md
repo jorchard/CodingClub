@@ -3,6 +3,9 @@
 Useful links:
 [replit](http://replit.com){:target="_blank"}, [CS Circles](https://cscircles.cemc.uwaterloo.ca/){:target="_blank"}
 
+- [May 3](https://third-animal-0f0.notion.site/Coding-Club-May-3-ba505d45af8c43ffa62ecafe098c0f34)
+    - functions
+
 - [April 21](https://third-animal-0f0.notion.site/April-21-3577469b29984ec5baef268e1a0582d0)
     - lists
 
