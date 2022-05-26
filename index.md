@@ -1,4 +1,4 @@
-## Let's Learn Python... right NOW!
+## Let's do some PROGRAMMING!
 
 Useful links:
 [p5.js](https://editor.p5js.org/){:target="_blank"}, [replit](http://replit.com){:target="_blank"}, [CS Circles](https://cscircles.cemc.uwaterloo.ca/){:target="_blank"}
