@@ -1,7 +1,10 @@
 ## Let's Learn Python... right NOW!
 
 Useful links:
-[replit](http://replit.com){:target="_blank"}, [CS Circles](https://cscircles.cemc.uwaterloo.ca/){:target="_blank"}
+[p5.js](https://editor.p5js.org/){:target="_blank"}, [replit](http://replit.com){:target="_blank"}, [CS Circles](https://cscircles.cemc.uwaterloo.ca/){:target="_blank"}
+
+- [May 26](https://third-animal-0f0.notion.site/Coding-Club-May-26-cd4f4f5c64a3420684a45bc4254df06f)
+    - Start a project using p5.js
 
 - [May 12](https://third-animal-0f0.notion.site/Coding-Club-May-12-e9b93d8624384bddbcc22564a05cf285)
     - JavaScript, p5.js
